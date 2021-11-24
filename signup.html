@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>form</title>
+        <style>
+            *{
+                margin: 0;
+                padding: 0;
+            }
+            body{
+                background-image:url(img9.jpg);
+                background-position: center;
+                background-size: cover;
+                font-family: sans-serif;
+                background-repeat: no-repeat;
+                margin-top:40px;
+            }
+            .regform{
+                width: 800px;
+                background-color:black;
+                margin: auto;
+                color: rgba(255, 255, 255, 0.89);
+                padding: 10px 0px 10px 0px;
+                text-align: center;
+                border-radius: 15px 15px 0px 0px;
+            }
+            .main{
+                background-color: rgba(0, 0, 0, 0.5);
+                width: 800px;
+                margin: auto;
+            }
+            form{
+                padding: 10px;
+            }
+            .name{
+            
+                color: white;
+                font-size: 18px;
+                font-weight: 700px;
+                margin-top: 30px;
+            }
+            input{
+                width: 300px;
+                height: 20px;
+                color: black;
+            }
+            .option{
+                width: 300px;
+                height:20px;
+                color: black;
+            }
+            button{
+                background: darkblue;
+                width: 80px;
+                height: 35px;
+                border: none;
+                font-size: 15px;
+                font-weight: bold;
+                font-family: sans-serif;
+            }
+           
+        
+        </style>
+    </head>
+    <body>
+        <div class="regform"><h1>Registration</h1></div>
+        <div class="main">
+            <form>
+                <div class="names">
+                    <h2 class="name">Name</h2>
+                    <input type="text" placeholder="enter firstname"><br>
+                    <h2  class="name">LastName</h2>
+                    <input type="text" placeholder="enter lastname"><br>
+                    <h2  class="name">Email</h2>
+                    <input type="email" placeholder=" enter email"><br>
+                    <h2  class="name">Password</h2>
+                    <input type="password" placeholder="password"><br>
+                    <h2  class="name">Comfirm Password</h2>
+                    <input type="password" placeholder="confirm password"><br>
+                    <h2  class="name">Date of Birth</h2>
+                    <input type="date">
+                    <h2  class="name">Gender</h2>
+                    <select  class="option" name="gender">
+                        <option>select</option>
+                        <option>Female</option>
+                        <option>Male</option>
+                        <option>Other</option>
+                    </select><br><br>
+                    <button>Register</button>
+                </div>
+            </form>
+        </div>
+
+    </body>
+</html>
